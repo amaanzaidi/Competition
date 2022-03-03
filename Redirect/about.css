@@ -1,0 +1,87 @@
+body{
+background-image: url(https://th.bing.com/th/id/R.99b5c5d3c4c7aea2be64dfb987ae55b9?rik=pyo62PiFMDwkXA&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-2%2fBlack-Powerpoint-Background-HD-Images-06687.jpg&ehk=AQROwscMMjcsmMiz%2bewk3BFxGHLTR1JkBH%2fBKAmgYP8%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.Navigation{
+    position:relative;
+    bottom: 0px;
+    margin-left: 10px;
+    
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    animation-name: Amaan2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+#Home{
+    position:relative;
+    bottom: 0px;
+   
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    background: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    animation-name: Amaan2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.Navigation:hover{
+    background-color: white;
+    transition: 500ms;
+    color: black;
+}
+div{
+    background-color: white;
+    margin: 100px;
+
+}
+h1{
+    color: red;
+    position: relative;
+    font-family: cursive;
+    animation-name: Amaan;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+p{
+    padding: 100px;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    position: relative;
+    right:0px;
+    animation-name:Amaan;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes Amaan
+ {
+     from{
+        right:1500px;
+     }
+     to{
+         right: 0px;
+     }
+    
+}
+@keyframes Amaan2 {
+    from{
+        bottom: 1000px;
+        
+        
+    }
+    to{
+        bottom: 0px;
+        
+    }
+    
+}

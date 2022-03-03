@@ -1,0 +1,105 @@
+.world{
+   width: cover;
+   height: 600px;
+   border: 1px solid black;
+   border-radius:10px;
+   margin-left: 10px;
+   display: inline-block;
+
+}
+body{
+    background-color: white;
+}
+
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(233, 233, 233);
+    text-align: center;
+    background-color: rgb(255 0 0 / 29%);
+    position:static;
+    
+
+}
+#banne{
+    position: absolute;
+    bottom: 310px;
+    left: 310px;
+    color: rgb(241 245 0);
+    background-color: rgba(151 11 171 / 30%);
+    font-size: 50px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    position: relative;
+    left: 50px;
+}
+samp{
+    position: relative;
+    left:80px;
+    font-family: cursive;
+    font-size: 20px;
+    
+
+}
+
+#flyingcars{
+    
+    margin-top: 10px;
+}
+img{
+    border-radius: 10px;
+    margin-left: 500px;
+}
+#space{
+    margin-top: 10px;
+    
+}
+#resize{
+    width: 500px;
+    border-radius: 80px;
+}
+#robot{
+    width: 400px;
+}
+.Navigation{
+    position:relative;
+    bottom: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+
+}
+.Navigation:hover{
+    background: white;
+    transition: 500ms;
+    color: black;
+}
+#tech{
+    position:relative;
+    bottom: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    background: white;
+    border: 2px solid white;
+    border-radius: 20px;
+
+
+}
+div{
+    
+    background-color: rgba(0, 0, 0, 0.219);
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+
+
+
+

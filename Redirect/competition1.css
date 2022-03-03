@@ -1,0 +1,72 @@
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 350px;
+    right: 500px;
+    font-size: 70px;
+    animation-name: Amaan;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+
+}
+@keyframes Amaan{
+    from{
+        right: 1000px;
+    }
+    to{
+        right: 500px;
+    }
+}
+body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/a/e/d/158129-gorgerous-future-background-1920x1080-photo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Navigation{
+    position:relative;
+    bottom: 230px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    animation-name: Amaan2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+#Home{
+    position:relative;
+    bottom: 230px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    background: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    animation-name: Amaan2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes Amaan2 {
+    from{
+        bottom: 350px;
+    }
+    to{
+        bottom: 230px;
+    }
+}
+
+.Navigation:hover{
+    background-color: white;
+    transition: 500ms;
+    color: black;
+}
